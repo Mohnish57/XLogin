@@ -18,7 +18,7 @@ const LoginForm = () => {
       submission_data.password === formData.password
     ) {
       setIsLoggedIn(true);
-      setMessage("Welcome User !");
+      setMessage("Welcome, user!");
     } else {
       setMessage("Invalid username or password");
     }
